@@ -1,0 +1,44 @@
+h1 {
+    color: rgb(114, 88, 145);
+    font-size: 40px;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+p {
+    text-align: justify;
+    text-overflow: auto;
+    font-size: 40px;
+    white-space: pre-line;
+    width: 1000px;
+    height: 1000px;
+}
+div {
+    width: 500px;
+    height: 500px;
+    background: tomato;
+}
+div h5 {
+    width: 30%;
+    height: 30%;
+    background: violet;
+}
+div h5 span {
+    width: 100%;
+    height: 20px;
+}
+#rog {
+    background: yellow;
+    width: 400px;
+    height: 400px;
+    padding: 20px 50px 20px;
+    padding-right: 120px;
+    border: 50px solid;
+    margin: 20px 100px 50px;
+}
+#low {
+    color: yellow;
+}

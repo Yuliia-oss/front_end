@@ -1,0 +1,16 @@
+ p {
+     text-align: center;
+     font-size: 40px;
+     font: caption;
+}
+
+body {
+    background: rgb(94, 69, 47);
+}
+
+button {
+    font-size: 14px;
+    font-display: bold;
+    background: slategrey;
+}
+
