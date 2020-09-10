@@ -1,0 +1,93 @@
+html {
+    font-family: sans-serif;
+}
+body {
+    margin: 0px;
+    background: #283618ff;
+
+}
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+    background: linear-gradient(90deg, #606c38ff, #283618ff, #fefae0ff, #dda15eff, #bc6c25ff);;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.comments {
+    outline: none;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 420px;
+    height: 320px;
+    background-color: #606c38ff;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    padding: 52px;
+    box-shadow: 0px,0px, 40px, 2px rgba(32, 32, 30, 0.3)
+}
+.bla{
+    outline: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #606c38ff;
+    box-shadow: 0px,0px, 40px, 2px rgba(82, 83, 80, 0.3)
+}
+h2 {
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 10px;
+}
+.form {
+    margin-top: 15px;
+    width: 420px;
+    height: 320px;
+    background-color: #606c38ff;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    padding: 52px;
+    box-shadow: 0px,0px, 20px, 2px rgba(255,255,255,0.3)
+}
+.name, .pass {
+    margin-bottom: 20px;
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+    outline: none;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0px 0px 20px 2px rgba(83, 29, 29, 0.3);
+
+}
+.submit {
+  border: none;
+  height: 48px;
+  border-radius: 0px;
+  background-color: #283618ff;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0px 0px 20px 2px rgba(83, 81, 81, 0.1);
+  margin-top: 25px;
+  transition: 0.2s all;
+}
+p {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+footer {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    color: papayawhip;
+}
+
